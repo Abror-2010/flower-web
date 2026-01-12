@@ -1,0 +1,357 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-shop img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar-about ul {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar-links-btn {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.navbar-links-btn button{
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.navbar-shop {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-shop {
+    font-size: 24px;
+}
+
+.catalog {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: end;
+    margin: 30px 0px;
+}
+
+.catalog-flower {
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    background-color: #666666;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px 25px 40px;
+}
+
+.catalog-flower img {
+    width: 300px;
+    height: 300px;
+}
+
+.catalog-flower button {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.catalog-1 h1{
+    font-size: 65px;
+    margin: 0;
+}
+
+.catalog-1 p {
+    font-size: 25px;
+}
+
+.catalog-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.work-title {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    width: 55%;
+}
+
+.work-title img {
+    border-radius: 20px;
+    height: 300px;
+}
+
+.work-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.work-stat-title {
+    color: #666666;
+}
+
+.work-stat button {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    padding: 40px 10px;
+    background-color: #666666;
+    border-radius: 10px;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-stat button p {
+    color: white;
+    font-size: 26px;
+}
+
+.nimaga-biz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.afzallik {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.afzallik-box {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border: none;
+    background-color: #141414;
+    border-radius: 15px;
+    padding: 15px 10px;
+    text-align: start;
+    gap: 5px;
+}
+
+.part-3 {
+    margin: 20px 0px;
+}
+
+.afzallik-box h1{
+    font-size: 70px;
+    margin: 0;
+}
+
+.afzallik-p-2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.part-4 {
+    margin: 20px 40px;
+}
+
+.afzallik-p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-links ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-shop img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-shop p {
+    font-size: 26px;
+}
+
+.catalog-lorem {
+    display: none;
+}
+
+@media (max-width: 1380px) {
+    .catalog-1 h1{
+        font-size: 50px;
+    }
+    .catalog-1 p {
+        font-size: 20px;
+    }
+    .work-title {
+        width: 470px;
+    }
+    .work-stat {
+        width: 470px;
+    }
+    .afzallik-box {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .afzallik {
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-columns: 400px 400px; */
+        /* grid-template-rows: auto auto; */
+
+    }
+    .afzallik-box {
+        width: 339px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar-links-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog {
+        flex-wrap: wrap;
+    }
+
+    .catalog-1 {
+        width: 100%;
+        text-align: center;
+    }
+    .catalog-lorem {
+        display: flex;
+    }
+    .catalog-2 {
+        display: flex;
+        gap: 30px;
+    }
+    .catalog-lorem {
+        width: 100%;
+    }
+    .catalog-lorem p {
+        font-size: 19px;
+    }
+    .container {
+        width: 85%;
+    }
+
+    .work {
+        flex-wrap: wrap;
+    }
+    .work-title {
+        width: 100%;
+        text-align: center;
+    }
+    .work-stat {
+        width: 100%;
+    }
+    .work-stat-title {
+        font-size: 22px;
+    }
+    .work-stat button{
+        width: 400px;
+    }
+    .work-title img {
+        margin: 0px 40px;
+    }
+    .afzallik-box {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-shop {
+        display: none;
+    }
+    .navbar-links {
+        gap: 5px;
+    }
+    .navbar-about-2{
+        width: 90px;
+    }
+    .navbar-about ul {
+        gap: 40px;
+    }
+    .catalog-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .work-stat{
+        text-align: center;
+    }
+    .footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer-shop {
+        width: 100%;
+    }
+    .afzallik-box {
+        width: 400px;
+    }
+    .afzallik {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-links ul {
+        align-items: center;
+    }
+    .footer-links {
+        width: 90%;
+    }
+}
